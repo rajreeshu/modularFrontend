@@ -64,6 +64,11 @@ modularLibrary.modifyExternalStylesheet(BASE_URL_UI + '/home/body.css');
 var loginForm = document.querySelector(".front_abc"); -- add suffix while targeting the Class of the component because it already got modified using our Library
 var signUpForm = document.querySelector(".back_abc");
 ```
+## Sample Project
+This Open source UI Application is build using our Library, check the code base on how to use the Library.
+```
+https://github.com/rajreeshu/revisorUI
+```
 
 ## Contributing
 We welcome contributions to the Modular-Frontend Library! Whether you're interested in fixing bugs, adding new features, or improving documentation, your help is appreciated.
