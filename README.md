@@ -2,6 +2,21 @@
 
 The Modular-Frontend Library is a JavaScript library designed to eliminate conflicts between CSS class names and ensure smooth integration of HTML elements into any web project. By appending a unique suffix to class names and modifying HTML and CSS accordingly, it provides a robust solution for incorporating multiple components without styling conflicts.
 
+## Why to Use/ Use Case
+- Suppose we want to generate a page UI and we are using components from open source places like codepen. There is a high chance of code conflict if you use 2 different codepen element.
+- This project is also helpful if you want to have 2 components in a web page and one supports one library like Bootstrap and other component uses another library like Tailwind and classes of the libraries cnoflicts with each other.
+*In the above 2 scenarios, we can use this library to remove the limitations *
+
+- Suppose we have a webpage and we want to use 2 different card component which has different styles for different  sections of the page.
+card1 : https://modularfrontend.projectgallery.online/uses/file1.html <br>
+card2 : https://modularfrontend.projectgallery.online/uses/file2.html <br>
+If we directly merge these 2 files there css may conflicts with each other <br>
+Merged File : https://modularfrontend.projectgallery.online/uses/merged.html (Border of Card2 is affecting the Card1 if placed at a same place)<br>
+We can use this Library in this place to keep everything seperated.
+Merged using this Library: https://modularfrontend.projectgallery.online/uses/modularFile.html (Both the cards are seperated by adding different suffix to each other **abc** for card1 and  **123**  for card2.
+
+**Source code can be seen using "View Source Page" option (ctrl + U) in the Browser**
+
 ## Features
 
 - **Class Name Isolation**: Automatically appends a unique suffix to all class names to prevent styling conflicts.
